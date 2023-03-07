@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply underline decoration-2 underline-offset-4 dark:text-sky-400 text-sky-800;
+}
