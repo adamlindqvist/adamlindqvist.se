@@ -4,10 +4,12 @@
   "scripts": {
     "sync": "browser-sync start --server --files dist/*.css *.html",
     "css": "tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch",
+    "dev": "concurrently \"npm run css\" \"npm run sync\"",
     "build": "tailwindcss -i ./src/css/input.css -o ./dist/output.css --minify"
   },
   "devDependencies": {
     "browser-sync": "^2.28.3",
+    "concurrently": "^7.6.0",
     "prettier": "^2.8.4",
     "prettier-plugin-tailwindcss": "^0.2.4",
     "tailwindcss": "^3.2.7"
