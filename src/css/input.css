@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 a {
-  @apply underline decoration-2 underline-offset-4 dark:text-sky-400 text-sky-800;
+  @apply text-sky-800 underline decoration-2 underline-offset-4 transition-colors hover:text-sky-600 dark:text-sky-400;
 }
