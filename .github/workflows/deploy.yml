@@ -2,7 +2,7 @@ name: GitHub Pages deploy
 
 on:
     push:
-        branches: [main]
+        branches: [nextjs]
 
 jobs:
     build:
