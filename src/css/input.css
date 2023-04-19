@@ -1,7 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-a {
-  @apply text-sky-800 underline decoration-2 underline-offset-4 transition-colors hover:text-sky-600 dark:text-sky-400;
-}
