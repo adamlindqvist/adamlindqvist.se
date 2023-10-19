@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: React.PropsWithChildren<{}>) {
     return (
         <html lang="sv">
             <body
