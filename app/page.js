@@ -6,10 +6,16 @@ export const metadata = {
 
 export default function Home() {
     return (
-        <header className="w-full max-w-prose space-y-6 text-lg lg:space-y-10 lg:text-2xl">
-            <h2 className="text-3xl font-extrabold tracking-tight lg:text-4xl">
-                Adam Lindqvist — Frontend Developer
-            </h2>
+        <div className="w-full max-w-prose space-y-6 lg:space-y-10 text-lg lg:text-2xl">
+            <header>
+                <h2 className="text-4xl lg:text-6xl font-paytone-one">
+                    Adam Lindqvist
+                </h2>
+
+                <h3 className="text-xl lg:mt-1 text-stone-800 dark:text-stone-400 font-extrabold tracking-tight lg:text-3xl">
+                    Frontend Developer
+                </h3>
+            </header>
 
             <p>
                 I'm Adam, a software engineer with 9+ years of experience based
@@ -51,6 +57,6 @@ export default function Home() {
             </p>
 
             <p>Have a nice day! 😊</p>
-        </header>
+        </div>
     );
 }
