@@ -1,7 +1,7 @@
 export const metadata = {
     title: "Adam Lindqvist",
     description:
-        "I'm Adam, a software engineer with 9+ years of experience based in Gothenburg. I'm a frontend developer primarily focused on technologies like Javascript and React.",
+        "I'm Adam, a software engineer with 10+ years of experience based in Gothenburg. I'm a frontend developer primarily focused on technologies like Javascript and React.",
 };
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
             </header>
 
             <p>
-                I'm Adam, a software engineer with 9+ years of experience based
+                I'm Adam, a software engineer with 10+ years of experience based
                 in Gothenburg. I'm a frontend developer primarily focused on
                 technologies like Javascript and React.
             </p>
