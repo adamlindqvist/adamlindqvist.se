@@ -37,23 +37,14 @@ export default function Home() {
             </p>
 
             <p>
-                You can find me on{" "}
+                You can also find me on{" "}
                 <a
                     rel="noopener noreferrer"
                     target="_blank"
                     href="https://github.com/adamlindqvist"
                 >
                     Github
-                </a>{" "}
-                or send me an{" "}
-                <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="mailto:adamlindqvist@outlook.com"
-                >
-                    email
-                </a>
-                .
+                </a>.
             </p>
 
             <p>Have a nice day! 😊</p>
