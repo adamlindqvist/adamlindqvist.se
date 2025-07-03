@@ -48,7 +48,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="sv">
+        <html lang="sv" className="font-inter">
             <head>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
                 <link href="https://fonts.googleapis.com/css2?family=Paytone+One:wght@400&display=swap" rel="stylesheet" />
                 <link rel="dns-prefetch" href="https://www.google-analytics.com" />
             </head>
-            <body className="flex justify-center bg-stone-200 px-4 py-16 text-stone-900 antialiased selection:bg-sky-300 dark:bg-stone-900 dark:text-stone-200 dark:selection:bg-sky-700 lg:py-32 font-sans">
+            <body className="flex justify-center bg-stone-200 px-4 py-16 text-stone-900 antialiased selection:bg-sky-300 dark:bg-stone-900 dark:text-stone-200 dark:selection:bg-sky-700 lg:py-32">
                 {children}
 
                 <Script 

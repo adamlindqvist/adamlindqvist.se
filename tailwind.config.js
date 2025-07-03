@@ -10,8 +10,8 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
-                "paytone-one": ["var(--font-paytone-one)"],
+                sans: ["Inter", ...defaultTheme.fontFamily.sans],
+                "paytone-one": ["Paytone One", ...defaultTheme.fontFamily.sans],
             },
         },
     },

@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One:wght@400&display=swap');
+
+@layer base {
+    body {
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    }
+}
+
+.font-paytone-one {
+    font-family: 'Paytone One', system-ui, -apple-system, sans-serif;
+}
+
 a {
     @apply text-sky-800 underline decoration-2 underline-offset-4 transition-colors hover:text-sky-600 dark:text-sky-400;
 }
