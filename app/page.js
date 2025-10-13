@@ -25,7 +25,7 @@ export default function Home() {
 
             <p>
                 I’ve been working with awesome brands like Volvo Cars, Essity,
-                Blomsterlandet, Willab Garden and AstraZeneca -&gt; More on{" "}
+                Blomsterlandet, Willab Garden, AstraZeneca and currently working at Derome -&gt; More on{" "}
                 <a
                     rel="noopener noreferrer"
                     target="_blank"
