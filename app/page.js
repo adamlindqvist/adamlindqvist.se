@@ -1,53 +1,66 @@
+const description =
+  "I'm Adam, a software engineer with 10+ years of experience based in Gothenburg. I'm a frontend developer primarily focused on technologies like JavaScript and React.";
+
 export const metadata = {
+  metadataBase: new URL("https://adamlindqvist.se"),
+  title: "Adam Lindqvist",
+  description,
+  openGraph: {
     title: "Adam Lindqvist",
-    description:
-        "I'm Adam, a software engineer with 10+ years of experience based in Gothenburg. I'm a frontend developer primarily focused on technologies like Javascript and React.",
+    description,
+    url: "https://adamlindqvist.se",
+    siteName: "Adam Lindqvist",
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function Home() {
-    return (
-        <div className="w-full max-w-prose space-y-6 lg:space-y-10 text-lg lg:text-2xl">
-            <header>
-                <h2 className="text-4xl lg:text-6xl font-paytone-one">
-                    Adam Lindqvist
-                </h2>
+  return (
+    <main className="w-full max-w-prose space-y-6 lg:space-y-10 text-lg lg:text-2xl">
+      <header>
+        <h1 className="text-4xl lg:text-6xl font-paytone-one">
+          Adam Lindqvist
+        </h1>
 
-                <h3 className="text-xl lg:mt-1 text-stone-800 dark:text-stone-400 font-extrabold tracking-tight lg:text-3xl">
-                    Frontend Developer
-                </h3>
-            </header>
+        <p className="text-xl lg:mt-1 text-stone-800 dark:text-stone-400 font-extrabold tracking-tight lg:text-3xl">
+          Frontend Developer
+        </p>
+      </header>
 
-            <p>
-                I'm Adam, a software engineer with 10+ years of experience based
-                in Gothenburg. I'm a frontend developer primarily focused on
-                technologies like Javascript and React.
-            </p>
+      <p>
+        I’m Adam, a software engineer with 10+ years of experience based in
+        Gothenburg. I’m a frontend developer primarily focused on technologies
+        like JavaScript and React.
+      </p>
 
-            <p>
-                I’ve been working with awesome brands like Volvo Cars, Essity,
-                Blomsterlandet, Willab Garden, AstraZeneca. Currently @Derome -&gt; More on{" "}
-                <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://www.linkedin.com/in/adam-lindqvist-16606287"
-                >
-                    LinkedIn
-                </a>
-                .
-            </p>
+      <p>
+        I’ve been working with awesome brands like Volvo Cars, Essity,
+        Blomsterlandet, Willab Garden and AstraZeneca. Currently at Derome. More
+        on{" "}
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://www.linkedin.com/in/adam-lindqvist-16606287"
+        >
+          LinkedIn
+        </a>
+        .
+      </p>
 
-            <p>
-                You can also find me on{" "}
-                <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://github.com/adamlindqvist"
-                >
-                    Github
-                </a>.
-            </p>
+      <p>
+        You can also find me on{" "}
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://github.com/adamlindqvist"
+        >
+          GitHub
+        </a>
+        .
+      </p>
 
-            <p>Have a nice day! 😊</p>
-        </div>
-    );
+      <p>Have a nice day! 😊</p>
+    </main>
+  );
 }
