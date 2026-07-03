@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 
 const description =
-  "I'm Adam, a software engineer with 10+ years of experience based in Gothenburg. I'm a frontend developer primarily focused on technologies like JavaScript and React.";
+  "I’m Adam, a software engineer in Gothenburg with over ten years of experience building for the web, mostly with JavaScript and React.";
 
 export const metadata = {
   metadataBase: new URL("https://adamlindqvist.se"),
@@ -65,15 +65,14 @@ export default function Home() {
       </header>
 
       <p>
-        I’m Adam, a software engineer with 10+ years of experience based in
-        Gothenburg. I’m a frontend developer primarily focused on technologies
-        like JavaScript and React.
+        I’m Adam, a software engineer in Gothenburg with over ten years of
+        experience building for the web, mostly with JavaScript and React.
       </p>
 
       <p>
-        I’ve been working with awesome brands like Volvo Cars, Essity,
-        Blomsterlandet, Willab Garden and AstraZeneca. Currently at Derome. More
-        on{" "}
+        Over the years I’ve built things for brands like Volvo Cars, Essity,
+        Blomsterlandet, Willab Garden and AstraZeneca. Currently at{" "}
+        <strong>Derome</strong>. More on{" "}
         <a
           rel="noopener noreferrer"
           target="_blank"
@@ -85,7 +84,7 @@ export default function Home() {
       </p>
 
       <p>
-        You can also find me on{" "}
+        You can find me on{" "}
         <a
           rel="noopener noreferrer"
           target="_blank"
