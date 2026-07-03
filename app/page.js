@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 
 const description =
-  "I’m Adam, a software engineer in Gothenburg with over ten years of experience building for the web, mostly with JavaScript and React.";
+  "I’m Adam, a software engineer based in the Gothenburg area with over ten years of experience building for the web, mostly with JavaScript and React.";
 
 export const metadata = {
   metadataBase: new URL("https://adamlindqvist.se"),
@@ -65,8 +65,9 @@ export default function Home() {
       </header>
 
       <p>
-        I’m Adam, a software engineer in Gothenburg with over ten years of
-        experience building for the web, mostly with JavaScript and React.
+        I’m Adam, a software engineer based in the Gothenburg area with over
+        ten years of experience building for the web, mostly with JavaScript
+        and React.
       </p>
 
       <p>
