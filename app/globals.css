@@ -7,6 +7,18 @@
 
 @layer base {
   a {
-    @apply text-sky-800 underline decoration-2 underline-offset-4 transition-colors hover:text-sky-600 dark:text-sky-400;
+    @apply text-sky-800 underline decoration-2 decoration-sky-800/40 underline-offset-4 transition-colors hover:text-sky-600 hover:decoration-sky-600 focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sky-500 dark:text-sky-400 dark:decoration-sky-400/40 dark:hover:text-sky-300 dark:hover:decoration-sky-300;
   }
 }
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(0.5em) rotate(4deg);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
